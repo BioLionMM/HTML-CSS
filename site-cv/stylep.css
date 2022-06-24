@@ -1,0 +1,99 @@
+h1{
+	font-size:20px;
+	color:#576D94;
+	font-family:Verdana;
+	text-align:center;
+	padding-top:1em;
+}
+body{
+	background-image:url(moonstar.jpg);
+}
+
+img{
+	margin:2em 1em 2em 1em;
+	position:float;
+}
+
+p{
+	color:#E6E6E6;
+	font-style:cursive;
+	font-size:20px;
+}
+
+a:link{
+	color:blue;
+	text-decoration:none;
+}
+a:hover{
+	color:#cc0000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.header{
+	  width: 90em;
+	  height: 4em;
+	  background-color:#F7BE81;
+	  border-radius:15px;
+}
+
+
+.menu{
+	height:4em;
+	width:90em;
+	background-color:#F2F5A9;
+	border-radius:15px;
+	display:block;
+	margin: 0em 0em 2em 2em;
+	float:top;
+}
+
+.elementmenu{
+	height:5em;
+	width:20em;
+	background-color:#A9E2F3;
+	border:3px solid #A9BCF5;
+	border-radius:10px;
+	display:inline;
+	margin:1em 2em 1em 2em;
+	text-align:center;
+}
+
+.contenu{
+	border-radius:40px;
+	margin:3em,1em,1em,1em;
+	padding:3em,1em,1em,1em;
+	display:block;
+	float:bottom;
+	color:white;
+}
+.contenu p{
+	color:black;
+	font-size:1em;
+}
+
+.active{
+	background-color:#2E9AFE;
+}
+
+.formation{
+	height:10em;
+	width:60em;
+	background-color:#A9D0F5;
+	border-radius:10px;
+	display:block;
+	margin:1em 2em 1em 2em;
+	text-align:center;
+	border:2px solid #BDBDBD;
+}
+.stages{
+	height:15em;
+	width:50em;
+	background-color:#CECEF6;
+	border-radius:10px;
+	display:none;
+	margin:1em 2em 1em 2em;
+	text-align:center;
+	border:2px solid #BDBDBD;
+	display:none;
+}

@@ -1,0 +1,54 @@
+table{
+    border-color:#ffff;
+    border-style:solid;
+    background-color:#ffff;
+    border-width:1px;
+    font-family:"Roboto";
+}
+
+
+th{
+    background-color:black;
+    color:white;
+}
+
+td{
+    padding:10px;
+}
+
+headerTable{
+    background-color:black;
+    color:white;
+}
+
+button{
+    width:100px;
+    display:block;
+}
+
+.voir{
+    background-color:blue;
+    color:white;
+    margin-right:0px;
+    float:left;
+}
+
+.supprimer{
+    background-color: red;
+    color:white;
+    margin-left:0px;
+}
+
+tr:nth-child(odd)
+{
+   background-color:#efefef /*Donne la couleur au ligne pair*/
+}
+ 
+tr:nth-child(even)
+{
+   background-color:#dadce0; /*Donne la couleur au ligne impaire*/
+}
+
+body p{
+    font-weight:bold
+}

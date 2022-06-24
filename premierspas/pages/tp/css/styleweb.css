@@ -1,0 +1,48 @@
+
+
+body{
+    background-color:lightgrey;
+}
+
+h1{
+    font-weight:bold;
+    text-align:center;
+}
+
+h3{
+    color:darkred;
+    font-weight:bold;
+}
+
+th{
+    background-color:black;
+    color:white;
+}
+
+table tbody tr:nth-child(odd) { background-color: #d7d7d7; }
+table tbody tr:nth-child(even) { background-color: #adaaaa; }
+
+table tbody tr:hover{background-color: #b8a3a3; }
+
+img{
+    border-color:red;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.precisions{
+    border-style:dashed;
+    border-color:blue;
+    width:500px;
+}
+
+.centered{
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+}
+
+.liendanstexte{
+    color:darkred;
+}
